@@ -28,6 +28,13 @@ namespace ZacksBrowser
         {
             textBox1.Text = webBrowser1.Url.ToString();
             Text = textBox1.Text;
+            Process me = Process.GetCurrentProcess();
+            long ram = me.WorkingSet64;
+            if (ram <= 100)
+            {
+                webBrowser1.Stop();
+                Text = "Too much RAM used, stopping operations";
+            }
         }
 
         private void TextBox1_TextChanged(object sender, EventArgs e) //When the user changes the URL text do this
