@@ -46,9 +46,9 @@
             this.darkToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lightToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.jediToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sithToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.browserToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.viewOnGithubToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sithToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -202,6 +202,13 @@
             this.jediToolStripMenuItem.Text = "Jedi";
             this.jediToolStripMenuItem.Click += new System.EventHandler(this.JediToolStripMenuItem_Click);
             // 
+            // sithToolStripMenuItem
+            // 
+            this.sithToolStripMenuItem.Name = "sithToolStripMenuItem";
+            this.sithToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.sithToolStripMenuItem.Text = "Sith";
+            this.sithToolStripMenuItem.Click += new System.EventHandler(this.SithToolStripMenuItem_Click);
+            // 
             // browserToolStripMenuItem
             // 
             this.browserToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -216,13 +223,6 @@
             this.viewOnGithubToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
             this.viewOnGithubToolStripMenuItem.Text = "Check for Updates";
             this.viewOnGithubToolStripMenuItem.Click += new System.EventHandler(this.ViewOnGithubToolStripMenuItem_Click);
-            // 
-            // sithToolStripMenuItem
-            // 
-            this.sithToolStripMenuItem.Name = "sithToolStripMenuItem";
-            this.sithToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.sithToolStripMenuItem.Text = "Sith";
-            this.sithToolStripMenuItem.Click += new System.EventHandler(this.SithToolStripMenuItem_Click);
             // 
             // Browser
             // 
