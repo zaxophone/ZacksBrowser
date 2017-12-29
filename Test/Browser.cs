@@ -180,5 +180,76 @@ namespace ZacksBrowser
             menuStrip1.BackColor = Color.FromArgb(10, 10, 10);
             menuStrip1.ForeColor = Color.FromArgb(155, 149, 149);
         }
+
+        public void GreenTheme()
+        {
+            BackColor = Color.FromArgb(25, 23, 23);
+            button5.BackColor = Color.FromArgb(45, 41, 41);
+            button5.ForeColor = Color.FromArgb(39, 135, 36);
+            button5.FlatStyle = FlatStyle.Flat;
+            button5.FlatAppearance.BorderColor = Color.FromArgb(15, 75, 15);
+            button5.FlatAppearance.BorderSize = 1;
+            button4.BackColor = Color.FromArgb(45, 41, 41);
+            button4.ForeColor = Color.FromArgb(39, 135, 36);
+            button4.FlatStyle = FlatStyle.Flat;
+            button4.FlatAppearance.BorderColor = Color.FromArgb(15, 75, 15);
+            button4.FlatAppearance.BorderSize = 1;
+            button3.BackColor = Color.FromArgb(45, 41, 41);
+            button3.ForeColor = Color.FromArgb(39, 135, 36);
+            button3.FlatStyle = FlatStyle.Flat;
+            button3.FlatAppearance.BorderColor = Color.FromArgb(15, 75, 15);
+            button3.FlatAppearance.BorderSize = 1;
+            button1.BackColor = Color.FromArgb(45, 41, 41);
+            button1.ForeColor = Color.FromArgb(39, 135, 36);
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.FlatAppearance.BorderColor = Color.FromArgb(15, 75, 15);
+            button1.FlatAppearance.BorderSize = 1;
+            textBox1.BackColor = Color.FromArgb(35, 33, 33);
+            textBox1.ForeColor = Color.FromArgb(39, 135, 36);
+            menuStrip1.BackColor = Color.FromArgb(10, 10, 10);
+            menuStrip1.ForeColor = Color.FromArgb(39, 135, 36);
+        }
+
+        public void SithTheme()
+        {
+            BackColor = Color.FromArgb(25, 23, 23);
+            button5.BackColor = Color.FromArgb(45, 41, 41);
+            button5.ForeColor = Color.FromArgb(135, 36, 39);
+            button5.FlatStyle = FlatStyle.Flat;
+            button5.FlatAppearance.BorderColor = Color.FromArgb(75, 15, 15);
+            button5.FlatAppearance.BorderSize = 1;
+            button4.BackColor = Color.FromArgb(45, 41, 41);
+            button4.ForeColor = Color.FromArgb(135, 36, 39);
+            button4.FlatStyle = FlatStyle.Flat;
+            button4.FlatAppearance.BorderColor = Color.FromArgb(75, 15, 15);
+            button4.FlatAppearance.BorderSize = 1;
+            button3.BackColor = Color.FromArgb(45, 41, 41);
+            button3.ForeColor = Color.FromArgb(135, 36, 39);
+            button3.FlatStyle = FlatStyle.Flat;
+            button3.FlatAppearance.BorderColor = Color.FromArgb(75, 15, 15);
+            button3.FlatAppearance.BorderSize = 1;
+            button1.BackColor = Color.FromArgb(45, 41, 41);
+            button1.ForeColor = Color.FromArgb(135, 36, 39);
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.FlatAppearance.BorderColor = Color.FromArgb(75, 15, 15);
+            button1.FlatAppearance.BorderSize = 1;
+            textBox1.BackColor = Color.FromArgb(25, 23, 23);
+            textBox1.ForeColor = Color.FromArgb(135, 36, 39);
+            textBox1.BorderStyle = BorderStyle.None;
+            menuStrip1.BackColor = Color.FromArgb(10, 10, 10);
+            menuStrip1.ForeColor = Color.FromArgb(135, 36, 39);
+        }
+
+        private void JediToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            GreenTheme();
+        }
+
+        private void SithToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            SithTheme();
+        }
+
+        
     }
 }

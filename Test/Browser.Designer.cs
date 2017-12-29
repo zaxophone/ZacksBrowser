@@ -45,8 +45,10 @@
             this.themesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.darkToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lightToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.jediToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.browserToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.viewOnGithubToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sithToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -172,7 +174,9 @@
             // 
             this.themesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.darkToolStripMenuItem,
-            this.lightToolStripMenuItem});
+            this.lightToolStripMenuItem,
+            this.jediToolStripMenuItem,
+            this.sithToolStripMenuItem});
             this.themesToolStripMenuItem.Name = "themesToolStripMenuItem";
             this.themesToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.themesToolStripMenuItem.Text = "Themes";
@@ -191,6 +195,13 @@
             this.lightToolStripMenuItem.Text = "Light";
             this.lightToolStripMenuItem.Click += new System.EventHandler(this.LightToolStripMenuItem_Click);
             // 
+            // jediToolStripMenuItem
+            // 
+            this.jediToolStripMenuItem.Name = "jediToolStripMenuItem";
+            this.jediToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.jediToolStripMenuItem.Text = "Jedi";
+            this.jediToolStripMenuItem.Click += new System.EventHandler(this.JediToolStripMenuItem_Click);
+            // 
             // browserToolStripMenuItem
             // 
             this.browserToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -205,6 +216,13 @@
             this.viewOnGithubToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
             this.viewOnGithubToolStripMenuItem.Text = "Check for Updates";
             this.viewOnGithubToolStripMenuItem.Click += new System.EventHandler(this.ViewOnGithubToolStripMenuItem_Click);
+            // 
+            // sithToolStripMenuItem
+            // 
+            this.sithToolStripMenuItem.Name = "sithToolStripMenuItem";
+            this.sithToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.sithToolStripMenuItem.Text = "Sith";
+            this.sithToolStripMenuItem.Click += new System.EventHandler(this.SithToolStripMenuItem_Click);
             // 
             // Browser
             // 
@@ -250,6 +268,8 @@
         private System.Windows.Forms.ToolStripMenuItem lightToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem browserToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem viewOnGithubToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem jediToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem sithToolStripMenuItem;
     }
 }
 
